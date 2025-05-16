@@ -1,5 +1,6 @@
 __pycache__/
 *.pyc
 subscribers.json
-config.py
+events.txt
+subscribers.txt
 .env
