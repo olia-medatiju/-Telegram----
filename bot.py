@@ -21,7 +21,7 @@ def load_subscribers():
 
 def save_subscribers(subscribers):
     with open(SUBSCRIBERS_FILE, "w", encoding="utf-8") as f:
-        json.dump(subscribers, f, ensure_ascii=False, indent=2)
+        json.dump(subscribers, f, ensure_ascii=False, indent=2)  
 
 buttons = [
     [KeyboardButton(text="Как стать волонтером?")],
